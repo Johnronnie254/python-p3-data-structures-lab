@@ -15,12 +15,14 @@ spicy_foods = [
         "heat_level": 6,
     },
 ]
+print (spicy_foods["names"])
 
 def get_names(spicy_foods):
-    pass
+    names= [food["names"] for food in spicy_foods]
+    return names
 
 def get_spiciest_foods(spicy_foods):
-    pass
+    
 
 def print_spicy_foods(spicy_foods):
     pass
